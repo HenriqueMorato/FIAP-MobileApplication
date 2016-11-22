@@ -15,7 +15,24 @@ namespace NET.XF.Intro.ViewModel
 
         public UserViewModel()
         {
+            LoadUsers();
+        }
 
+        private ObservableCollection<User> LoadUsers()
+        {
+            return Users = new ObservableCollection<User>()
+            {
+                new User()
+                {
+                    Name = "Anderson",
+                    Password = "fiap"
+                },
+                new User()
+                {
+                    Name = "Aldo",
+                    Password = "fiap"
+                }
+            };
         }
     }
 }
