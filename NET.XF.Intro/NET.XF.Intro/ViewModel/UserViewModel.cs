@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NET.XF.Intro.ViewModel
 {
-    public class UserViewModel : INotifyPropertyChanged
+    public class UserViewModel
     {
         public ObservableCollection<User> Users;
 
@@ -17,7 +17,5 @@ namespace NET.XF.Intro.ViewModel
         {
 
         }
-
-        public event PropertyChangedEventHandler PropertyChanged;
     }
 }
