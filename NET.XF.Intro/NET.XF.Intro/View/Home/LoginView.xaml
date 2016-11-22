@@ -8,7 +8,7 @@
       <Label Text="Autenticação" Font="20" />
       <Editor x:Name="txtUser" Placeholder="Usuário" />
       <Editor x:Name="txtPassword"  Placeholder="Senha" />
-      <Button x:Name="btnEnter" Text="Entrar" Clicked="OnEnter" />
+      <Button x:Name="btnEnter" Text="Entrar" Clicked="OnEnter_Clicked" />
     </StackLayout>
   </ContentPage.Content>
 
