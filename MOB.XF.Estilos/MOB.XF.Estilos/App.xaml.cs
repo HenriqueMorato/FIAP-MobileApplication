@@ -13,7 +13,7 @@ namespace MOB.XF.Estilos
         {
             InitializeComponent();
 
-            MainPage = new MOB.XF.Estilos.MainPage();
+            MainPage = new MOB.XF.Estilos.EstiloDinamicoView();
         }
 
         protected override void OnStart()
